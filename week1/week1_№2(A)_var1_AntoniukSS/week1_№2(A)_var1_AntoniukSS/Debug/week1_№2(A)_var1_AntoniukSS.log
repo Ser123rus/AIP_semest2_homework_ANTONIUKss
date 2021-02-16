@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\AIP_semestr2_homework\week1_№2(A)_var1_AntoniukSS\week1_№2(A)_var1_AntoniukSS\main.cpp(8,17): warning C4305: инициализация: усечение из "double" в "float"
+  week1_№2(A)_var1_AntoniukSS.vcxproj -> D:\AIP_semestr2_homework\week1_№2(A)_var1_AntoniukSS\Debug\week1_№2(A)_var1_AntoniukSS.exe
