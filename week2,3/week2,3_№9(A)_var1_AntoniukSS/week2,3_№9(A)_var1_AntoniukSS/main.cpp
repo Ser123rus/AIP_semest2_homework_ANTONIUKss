@@ -1,31 +1,116 @@
 #include <iostream>
 using namespace std;
 
+float mnozhitel;
+float result; // результат расчёта
+int choice; // отвечает за выбор позиции формата перевода
+
+void metrVkilometr(float mnozhitel);
+void kilometrVMetr(float mnozhitel);
+void metrVversta(float mnozhitel);
+void verstaVmetr(float mnozhitel);
+void kilometrVversta(float mnozhitel);
+void verstaVkilometr(float mnozhitel);
+
+//написать конвертер величин с выбором формата вывода
+
 int main()
 {
+	setlocale(LC_ALL, "Russian"); // включил русский язык(локализация)
 
-	float metres = 0;
-	float verst = 0;
-	float kilometrs = 0;
-	float metres1 = 0;
-	float verst1 = 0;
-	float kilometrs1 = 0;
+	cout << " Введите номер желаемого перевода: " << endl <<
+			"1.Метр-километр" << endl << "2.Километр-метр " << endl << "3.Метр-вёрсты" << endl <<
+			"4.Версты-метр " << endl << "5.Километр-версты" << endl << "6.Версты-километры" << endl;
 
-	cin >> metres >> verst >> kilometrs; //ввод значений
+	cin >> choice;
+	cout << " Колличество = ";
+	cin >> mnozhitel;
 
-	//расчёты отношений
-	kilometrs = 1000 * metres;
-	verst = 1066.8 * metres;
-	metres = kilometrs/1000;
-	kilometrs1 = 0.94 * verst;
-	verst1 = 1.067 * kilometrs;
-	metres1 = 0.00094 * verst;
+	if (choice == 1) // вызов функций с расчётом
+	{
 
-	//вывод соотнесённых величин
-	cout << "kilometr-metr=" << kilometrs << endl << "versta-metr=" << verst << endl;
-	cout << "metr-kilometr=" << metres << endl << "kilometr-versta=" << kilometrs1 << endl;
-	cout << "versta-kilometr=" << verst1 << endl << "metr-versta=" << metres1 << endl;
+		metrVkilometr(mnozhitel);
+		cout << result;
+
+	}
+	if (choice == 2)
+	{
+
+		kilometrVMetr(mnozhitel);
+		cout << result;
+
+	}
+	if (choice == 3)
+	{
+
+		metrVversta(mnozhitel);
+		cout << result;
+
+	}
+	if (choice == 4)
+	{
+
+		verstaVmetr(mnozhitel);
+		cout << result;
+
+	}
+	if (choice == 5)
+	{
+
+		kilometrVversta(mnozhitel);
+		cout << result;
+
+	}
+	if (choice == 6)
+	{
+
+		verstaVkilometr(mnozhitel);
+		cout << result;
+
+	}
+	
 
 	return 0;
+}
+
+void metrVkilometr(float mnozhitel) //реализация расчётов
+{
+
+	result = mnozhitel / 1000;
+
+}
+
+void kilometrVMetr(float mnozhitel)
+{
+
+	result = mnozhitel * 1000;
+
+}
+
+void metrVversta(float mnozhitel)
+{
+
+	result = mnozhitel / 1067;
+
+}
+
+void verstaVmetr(float mnozhitel)
+{
+
+	result = mnozhitel * 1067;
+
+}
+
+void kilometrVversta(float mnozhitel)
+{
+
+	result = mnozhitel * 1.067;
+
+}
+
+void verstaVkilometr(float mnozhitel)
+{
+
+	result = mnozhitel / 1.067 ;
 
 }

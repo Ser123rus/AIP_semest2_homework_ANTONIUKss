@@ -1,6 +1,5 @@
 ﻿  main.cpp
-D:\AIP_semestr2_homework\week2,3\week2,3_№9(A)_var1_AntoniukSS\week2,3_№9(A)_var1_AntoniukSS\main.cpp(17,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-D:\AIP_semestr2_homework\week2,3\week2,3_№9(A)_var1_AntoniukSS\week2,3_№9(A)_var1_AntoniukSS\main.cpp(19,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-D:\AIP_semestr2_homework\week2,3\week2,3_№9(A)_var1_AntoniukSS\week2,3_№9(A)_var1_AntoniukSS\main.cpp(20,17): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-D:\AIP_semestr2_homework\week2,3\week2,3_№9(A)_var1_AntoniukSS\week2,3_№9(A)_var1_AntoniukSS\main.cpp(21,20): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\AIP_semestr2_homework\week2,3\week2,3_№9(A)_var1_AntoniukSS\week2,3_№9(A)_var1_AntoniukSS\main.cpp(71,2): warning C4193: #pragma warning(pop): нет парной "#pragma warning(push)"
+D:\AIP_semestr2_homework\week2,3\week2,3_№9(A)_var1_AntoniukSS\week2,3_№9(A)_var1_AntoniukSS\main.cpp(107,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\AIP_semestr2_homework\week2,3\week2,3_№9(A)_var1_AntoniukSS\week2,3_№9(A)_var1_AntoniukSS\main.cpp(114,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
   week2,3_№9(A)_var1_AntoniukSS.vcxproj -> D:\AIP_semestr2_homework\week2,3\week2,3_№9(A)_var1_AntoniukSS\Debug\week2,3_№9(A)_var1_AntoniukSS.exe
