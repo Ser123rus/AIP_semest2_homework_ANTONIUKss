@@ -1,0 +1,6 @@
+ NACHALNIE DANNIE: 
+5
+4
+RESULT after OBRABOTKA:
+1stnum=4
+2ndnum=5

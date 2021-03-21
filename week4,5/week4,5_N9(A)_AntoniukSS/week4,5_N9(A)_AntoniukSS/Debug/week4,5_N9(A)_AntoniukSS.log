@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\AIP_semestr2_homework\week4,5\week4,5_N9(A)_AntoniukSS\week4,5_N9(A)_AntoniukSS\Source.cpp(133,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+D:\AIP_semestr2_homework\week4,5\week4,5_N9(A)_AntoniukSS\week4,5_N9(A)_AntoniukSS\Source.cpp(138,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  week4,5_N9(A)_AntoniukSS.vcxproj -> D:\AIP_semestr2_homework\week4,5\week4,5_N9(A)_AntoniukSS\Debug\week4,5_N9(A)_AntoniukSS.exe
