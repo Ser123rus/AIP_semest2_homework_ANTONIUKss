@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\AIP_semestr2_homework\week10,11\week10,11_N1_AntoniukSS\week10,11_N1_AntoniukSS\Source.cpp(27,10): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  week10,11_N1_AntoniukSS.vcxproj -> D:\AIP_semestr2_homework\week10,11\week10,11_N1_AntoniukSS\Debug\week10,11_N1_AntoniukSS.exe
