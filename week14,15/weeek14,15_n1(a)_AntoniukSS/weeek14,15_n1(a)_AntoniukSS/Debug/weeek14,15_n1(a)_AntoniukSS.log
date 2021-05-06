@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\AIP_semestr2_homework\week14,15\weeek14,15_n1(a)_AntoniukSS\weeek14,15_n1(a)_AntoniukSS\Source.cpp(33,42): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\AIP_semestr2_homework\week14,15\weeek14,15_n1(a)_AntoniukSS\weeek14,15_n1(a)_AntoniukSS\Source.cpp(34,43): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\AIP_semestr2_homework\week14,15\weeek14,15_n1(a)_AntoniukSS\weeek14,15_n1(a)_AntoniukSS\Source.cpp(35,43): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\AIP_semestr2_homework\week14,15\weeek14,15_n1(a)_AntoniukSS\weeek14,15_n1(a)_AntoniukSS\Source.cpp(37,52): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+D:\AIP_semestr2_homework\week14,15\weeek14,15_n1(a)_AntoniukSS\weeek14,15_n1(a)_AntoniukSS\Source.cpp(38,48): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  weeek14,15_n1(a)_AntoniukSS.vcxproj -> D:\AIP_semestr2_homework\week14,15\weeek14,15_n1(a)_AntoniukSS\Debug\weeek14,15_n1(a)_AntoniukSS.exe
